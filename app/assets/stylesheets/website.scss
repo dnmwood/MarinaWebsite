@@ -39,7 +39,7 @@
   text-align: left;
 }
 
-a {
+.nav-link {
   padding: 3px 9px 3px 9px;
   // font-size: 21px;
   text-decoration: none;
@@ -50,7 +50,7 @@ a {
 
 /*HOVER*/
 
-a:hover {
+nav-link:hover {
   opacity: 1;
   transform: scale(1.1);
   background-color: #E2E0E0;
