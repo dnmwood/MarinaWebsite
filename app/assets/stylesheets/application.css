@@ -28,11 +28,18 @@
    font-family: 'Merriweather', serif;
  }
 
- img {
+ .main-image {
+   display: inline-block;
    width: 1000px;
    display: block;
    margin: auto;
    padding: 15px;
+ }
+
+ @media (max-width: 768px) {
+  .main-image{
+     display: none;
+   }
  }
 
  a {

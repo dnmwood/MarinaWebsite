@@ -100,29 +100,29 @@ nav-link:hover {
   align-items: center;
 }
 
-img {
+.main-image {
   padding: 10px;
 }
 
 .about-me {
+  display: block;
   color: #303030;
   margin: auto;
   font-size: 28px;
-  width: 850px;
+  width: auto;
   padding: 20px;
   /*background-color: #E2E0E0;*/
   border-radius: 7px;
   text-align: center;
 }
-//
-// .pop-boxes {
-//   padding: 30px;
-//   margin: auto;
-//   width: 432px;
-// }
+
+@media (min-width: 860px){
+  .about-me {
+    width: 820px;
+  }
+}
 
 .pop-container {
-  display: block;
   margin: auto;
   margin-top: 15px;
   width: 568px;
@@ -130,8 +130,15 @@ img {
   height: 135px;
 }
 
+@media (max-width: 550px){
+  .pop-container {
+    width: 280px;
+  }
+}
+
 .img-cont {
-  display: inline-block;
+  opacity: 0.8;
+  display: block;
   float: left;
   padding: 1px;
   width: 130px;
@@ -139,24 +146,52 @@ img {
   background-size: cover;
   background-position: center;
   border-width: 2px;
-  border-radius: 50%;
+  border-radius: 23%;
   background-image: url("/assets/border-crossing.jpg");
+}
+
+@media (max-width: 550px){
+  .img-cont {
+    display: none;
+  }
 }
 
 .pop-box {
   font-size: 27px;
   display: inline-block;
   margin: auto;
-  margin-top: 43px;
-  margin-left: 5px;
+  margin-top: 40px;
+  margin-left: 11px;
+}
+
+@media (max-width: 550px){
+  .pop-box {
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block;
+    font-size: 23px;
+    padding: 0px;
+  }
 }
 
 .description {
-  font-size: 17px;
+  display: inline-block;
+  font-size: 16px;
   margin: auto;
-  margin-left: 3px;
-  margin-top: -2px;
+  margin-left: 13px;
+  margin-top: -20px;
   padding: 0px;
+}
+
+@media (max-width: 550px){
+  .description {
+    width: 250px;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-top: -12px;
+    padding: 0;
+  }
 }
 
 //return to top scroll - by @rdallaire//

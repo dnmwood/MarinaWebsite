@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Slabo+27px" rel="stylesheet">
@@ -36,11 +35,13 @@
       </header>
 
       <!-- Image Placeholder -->
-        <img src="/assets/flowers.jpg" alt="" class="image">
+        <img src="/assets/flowers.jpg" alt="" class="main-image">
 
       <!-- About Me -->
-    <section class="section about" class="about-me">
-      <p class="about-me">Journalist with an interest in identity and adoption. Previous experience in the arts, fashion, and sporting entertainment industries, building brands and creating community through content creation and engagement, social media, and fundraising.</p>
+    <section class="section about">
+      <div class="about-me">
+        <p>Journalist with an interest in identity and adoption. Previous experience in the arts, fashion, and sporting entertainment industries, building brands and creating community through content creation and engagement, social media, and fundraising.</p>
+      </div>
     </section>
 
 
@@ -48,12 +49,14 @@
     <section class="section articles" id="articles-section">
       <h2 class="section-title">Articles</h2>
 
-      <div class="pop-container">
-          <div class="img-cont">
+      <div class="pop-container" id="parent">
+          <div class="img-cont" id="child">
           </div>
-          <div class="pop-box">
+          <div class="pop-box" id="child">
             <a href="http://africasacountry.com/2017/03/the-border-crossing/">Border Crossing - Africa is a Country</a>
-            <p class="description">on African refugees fleeing Trump's America for Canada.</p>
+            </div>
+            <div class="description" id="child">
+            <p>on African refugees fleeing Trump's America for Canada.</p>
           </div>
       </div>
       <div class="pop-container">
@@ -61,7 +64,9 @@
           </div>
           <div class="pop-box">
             <a href="http://africasacountry.com/2017/03/the-border-crossing/">Border Crossing - Africa is a Country</a>
-            <p class="description">on African refugees fleeing Trump's America for Canada.</p>
+            </div>
+            <div class="description">
+            <p>on African refugees fleeing Trump's America for Canada.</p>
           </div>
       </div>
       <div class="pop-container">
@@ -69,7 +74,9 @@
           </div>
           <div class="pop-box">
             <a href="http://africasacountry.com/2017/03/the-border-crossing/">Border Crossing - Africa is a Country</a>
-            <p class="description">on African refugees fleeing Trump's America for Canada.</p>
+            </div>
+            <div class="description">
+            <p>on African refugees fleeing Trump's America for Canada.</p>
           </div>
       </div>
       <div class="pop-container">
@@ -77,7 +84,9 @@
           </div>
           <div class="pop-box">
             <a href="http://africasacountry.com/2017/03/the-border-crossing/">Border Crossing - Africa is a Country</a>
-            <p class="description">on African refugees fleeing Trump's America for Canada.</p>
+            </div>
+            <div class="description">
+            <p>on African refugees fleeing Trump's America for Canada.</p>
           </div>
       </div>
     </section>
