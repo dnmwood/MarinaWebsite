@@ -17,3 +17,19 @@
  html {
    background-color: #F2F2F2;
  }
+
+ h1 {margin:auto; padding: 5px;}
+
+ h1, h2, .tagline {
+   font-family: 'Slabo 27px', serif;
+ }
+
+ h3 {
+   font-family: 'Merriweather', serif;
+ }
+
+ img {
+   display: block;
+   margin: auto;
+   padding: 15px;
+ }
