@@ -14,3 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+//hover
+$( ".a" ).hover(function () {
+   $( ".a" ).toggleClass("on_hover");
+});
+
+$( ".image" ).hover(function () {
+   $( ".image" ).toggleClass("on_hover");
+});
