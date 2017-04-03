@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* This page will change structure past 415px,
+for a better ipad/monitor layout */
+
 /***********************
 ******** HEADER ********
 ************************/
@@ -124,6 +127,16 @@ nav-link:hover {
   }
 }
 
+@media (min-width: 510px){
+  .pop-container {
+    margin-top: 15px;
+    margin: auto;
+    width: 550px;
+    padding: 20px;
+    height: 135px;
+  }
+}
+
 .img-cont {
   margin: auto;
   padding: 2px;
@@ -131,17 +144,20 @@ nav-link:hover {
   height: 130px;
   background-size: cover;
   background-position: center;
+  background-color: green;
   border-radius: 50%;
-  background-image: url("/assets/border-crossing.jpg");
+  background-image: url("/assets/waterfall.gif");
 }
 
-@media (min-width: 500px){
+@media (min-width: 510px){
   .img-cont {
+    display: inline-block;
+    float: left;
   }
 }
 
 .pop-box {
-  font-size: 21px;
+  font-size: 23px;
   padding: 5px;
   padding-top: 12px;
   text-align: center;
@@ -149,22 +165,29 @@ nav-link:hover {
   width: auto;
 }
 
-@media (min-width: 500px){
+@media (min-width: 510px){
   .pop-box {
+    display: inline-block;
+    float: left;
+    margin-top: 24px;
+    margin-left: 3px;
   }
 }
 
 .description {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   margin: auto;
-  width: 300px;
+  height: 1px;
+  width: 340px;
   padding: 5px;
   margin-top: -26px;
 }
 
-@media (min-width: 500px){
+@media (min-width: 510px){
   .description {
+    display: inline-block;
+    margin-left: 2px;
   }
 }
 
