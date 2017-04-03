@@ -94,8 +94,9 @@ nav-link:hover {
 
 .section-title {
   margin: auto;
+  margin-bottom: 15px;
   padding: 25px;
-  font-size: 38px;
+  font-size: 40px;
   text-align: center;
   align-items: center;
 }
@@ -123,75 +124,47 @@ nav-link:hover {
   }
 }
 
-.pop-container {
-  margin: auto;
-  margin-top: 15px;
-  width: 568px;
-  padding: 10px;
-  height: 135px;
-}
-
-@media (max-width: 550px){
-  .pop-container {
-    width: 280px;
-  }
-}
-
 .img-cont {
-  opacity: 0.8;
-  display: block;
-  float: left;
-  padding: 1px;
+  margin: auto;
+  padding: 2px;
   width: 130px;
   height: 130px;
   background-size: cover;
   background-position: center;
-  border-width: 2px;
   border-radius: 50%;
   background-image: url("/assets/border-crossing.jpg");
 }
 
-@media (max-width: 550px){
+@media (min-width: 500px){
   .img-cont {
-    display: none;
   }
 }
 
 .pop-box {
-  font-size: 24px;
-  display: inline-block;
+  font-size: 21px;
+  padding: 5px;
+  padding-top: 12px;
+  text-align: center;
   margin: auto;
-  margin-top: 40px;
-  margin-left: 11px;
+  width: auto;
 }
 
-@media (max-width: 550px){
+@media (min-width: 500px){
   .pop-box {
-    width: 300px;
-    margin-top: 0px;
-    margin-left: 0px;
-    display: block;
-    font-size: 23px;
-    padding: 0px;
   }
 }
 
 .description {
-  display: inline-block;
   font-size: 16px;
+  text-align: center;
   margin: auto;
-  margin-left: 13px;
-  margin-top: -20px;
-  padding: 0px;
+  width: 300px;
+  padding: 5px;
+  margin-top: -26px;
 }
 
-@media (max-width: 550px){
+@media (min-width: 500px){
   .description {
-    width: 250px;
-    font-size: 15px;
-    margin-left: 2px;
-    margin-top: -12px;
-    padding: 0;
   }
 }
 
