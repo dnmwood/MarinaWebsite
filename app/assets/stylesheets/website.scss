@@ -21,7 +21,7 @@
 }
 
 .nav-menu {
-  font-size: 25px;
+  font-size: 22px;
   display: table;
   margin: auto;
   margin-top: -20px;
@@ -105,6 +105,7 @@ nav-link:hover {
 }
 
 .about-me {
+  font-family: 'Slabo', serif;
   display: block;
   color: #303030;
   margin: auto;
@@ -146,7 +147,7 @@ nav-link:hover {
   background-size: cover;
   background-position: center;
   border-width: 2px;
-  border-radius: 23%;
+  border-radius: 50%;
   background-image: url("/assets/border-crossing.jpg");
 }
 
@@ -157,7 +158,7 @@ nav-link:hover {
 }
 
 .pop-box {
-  font-size: 27px;
+  font-size: 24px;
   display: inline-block;
   margin: auto;
   margin-top: 40px;
