@@ -127,6 +127,10 @@ nav-link:hover {
   }
 }
 
+.pop-container {
+  padding: 25px;
+}
+
 @media (min-width: 510px){
   .pop-container {
     margin-top: 15px;
@@ -179,13 +183,14 @@ nav-link:hover {
   text-align: center;
   margin: auto;
   height: 1px;
-  width: 340px;
+  width: 350px;
   padding: 5px;
   margin-top: -26px;
 }
 
 @media (min-width: 510px){
   .description {
+    width: 340px;
     display: inline-block;
     margin-left: 2px;
   }
