@@ -129,7 +129,7 @@ nav-link:hover {
 
 .pop-container {
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .pop-container:hover {
@@ -141,7 +141,7 @@ nav-link:hover {
 @media (min-width: 510px){
   .pop-container {
     margin: auto;
-    width: 550px;
+    width: 535px;
     padding: 25px;
     height: 130px;
   }
@@ -154,7 +154,6 @@ nav-link:hover {
   height: 130px;
   background-size: cover;
   background-position: center;
-  background-color: green;
   border-radius: 50%;
   background-image: url("/assets/waterfall.gif");
 }
@@ -180,13 +179,14 @@ nav-link:hover {
   .pop-box {
     display: inline-block;
     float: left;
-    margin-top: 22px;
+    margin-top: 26px;
     margin-left: 5px;
   }
 }
 
 .description {
   font-family: Sans-serif;
+  font-style: italic;
   display: none;
   font-size: 15px;
   text-align: center;
@@ -199,10 +199,11 @@ nav-link:hover {
 @media (min-width: 510px){
   .description {
     width: 340px;
+    color: #6D6C6C;
     display: inline-block;
-    margin-left: 4px;
+    margin-left: 20px;
     padding: 0px;
-    margin-top: -23px;
+    margin-top: -20px;
   }
 }
 
