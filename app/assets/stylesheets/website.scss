@@ -16,9 +16,23 @@ for a better ipad/monitor layout */
   margin: auto;
 }
 
+#bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: auto 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+ #bg{
+    display: none;
+  }
+}
+
 .title-header {
   display: block;
-  font-size: 32px;
+  font-size: 40px;
   margin: auto;
   padding: 15px;
 }
@@ -103,10 +117,10 @@ nav-link:hover {
   text-align: center;
   align-items: center;
 }
-
-.main-image {
-  padding: 10px;
-}
+//
+// .main-image {
+//   padding: 10px;
+// }
 
 .about-me {
   font-family: 'Slabo', serif;
