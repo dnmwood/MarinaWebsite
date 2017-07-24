@@ -147,7 +147,7 @@ nav-link:hover {
   }
 }
 
-.img-cont {
+.img-cont-1 {
   margin: auto;
   padding: 2px;
   width: 130px;
@@ -155,11 +155,28 @@ nav-link:hover {
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  background-image: url("/assets/waterfall.gif");
+  background-image: url("/assets/border-crossing.jpg");
+}
+
+.img-cont-2 {
+  margin: auto;
+  padding: 2px;
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("/assets/novellaProfile.jpeg");
 }
 
 @media (min-width: 510px){
-  .img-cont {
+  .img-cont-1 {
+    display: inline-block;
+    float: left;
+  }
+}
+@media (min-width: 510px){
+  .img-cont-2 {
     display: inline-block;
     float: left;
   }

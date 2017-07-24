@@ -31,7 +31,9 @@ $("#africa").click(function() {
     window.open('http://africasacountry.com/2017/03/the-border-crossing/','_blank');
   });
 
-
+$("#novella").click(function() {
+    window.open('http://novellamag.com/author/marina/','_blank');
+  });
 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 175) {        // If page is scrolled more than 50px
