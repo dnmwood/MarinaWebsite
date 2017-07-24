@@ -35,6 +35,12 @@ $("#novella").click(function() {
     window.open('http://novellamag.com/author/marina/','_blank');
   });
 
+$("#outwords").click(function() {
+    window.open('http://outwords.ca/authors/marina-koslock/','_blank');
+  });
+
+
+
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 175) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(250);    // Fade in the arrow

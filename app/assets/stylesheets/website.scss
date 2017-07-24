@@ -134,14 +134,14 @@ nav-link:hover {
 
 .pop-container:hover {
   transform: scale(1.01);
-  background-color: #E2E0E0;
+  // background-color: #E2E0E0;
   cursor: pointer;
 }
 
 @media (min-width: 510px){
   .pop-container {
     margin: auto;
-    width: 535px;
+    width: 545px;
     padding: 25px;
     height: 130px;
   }
@@ -154,8 +154,8 @@ nav-link:hover {
   height: 130px;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
-  background-image: url("/assets/border-crossing.jpg");
+  border-radius: 4%;
+  background-image: url("/assets/africaProfile.jpg");
 }
 
 .img-cont-2 {
@@ -165,8 +165,19 @@ nav-link:hover {
   height: 130px;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 4%;
   background-image: url("/assets/novellaProfile.jpeg");
+}
+
+.img-cont-3 {
+  margin: auto;
+  padding: 2px;
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4%;
+  background-image: url("/assets/outwordsProfile2.jpg");
 }
 
 @media (min-width: 510px){
@@ -175,8 +186,16 @@ nav-link:hover {
     float: left;
   }
 }
+
 @media (min-width: 510px){
   .img-cont-2 {
+    display: inline-block;
+    float: left;
+  }
+}
+
+@media (min-width: 510px){
+  .img-cont-3 {
     display: inline-block;
     float: left;
   }
@@ -264,4 +283,8 @@ nav-link:hover {
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+.sc-link {
+  text-align: center;
 }
