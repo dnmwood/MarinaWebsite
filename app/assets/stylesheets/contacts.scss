@@ -1,8 +1,9 @@
 // Place all the styles related to the Contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import "bootstrap-sprockets";
-@import "bootstrap";
+//
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
 
 .hidden { display: none; }
 
@@ -21,7 +22,7 @@
 }
 
 .half-field {
-    width: 45% !important;
+    width: 92% !important;
     float: left !important;
     margin: 1% !important;
 }
@@ -35,7 +36,6 @@
     width: 73.7%;
     margin-left: 10.8%;
 }
-
 
 .contact-text-area-field {
     width: 100%;

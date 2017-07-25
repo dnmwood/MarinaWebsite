@@ -14,9 +14,6 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
-
  html {
    background-color: #F2F2F2;
  }
