@@ -1,16 +1,38 @@
-<div align="center">
-  <h3>Send A message to Us</h3>
+<div class="content">
+  <header class="banner">
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    <!-- Title -->
+    <div class="title-header">
+      <h1>Marina Lee Koslock</h1>
+
+    </div><div class="container contact-container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="form-group well">
+        <%= form_for @contact do |f| %>
+        <div class="name-subject-container">
+          <%= f.label :name, hidden: true %>
+          <%= f.text_field :name, required: true, placeholder: "Name", class:"form-control half-field" %>
+        </div>
+
+        <div class="contact-email-container">
+          <%= f.label :email, hidden: true %>
+          <%= f.email_field :email, required: true, placeholder: "Email", :class => "form-control" %>
+        </div>
+        <div class="contact-text-area">
+          <%= f.label :message, hidden: true %><br>
+          <%= f.text_area :message, as: :text, :class => "form-control contact-text-area-field", placeholder: "Message" %>
+        </div>
+
+
+          <div class="hidden">
+          <%= f.label :nickname %><br>
+          <%= f.text_field :nickname, hint: 'leave this field blank' %>
+          </div>
+
+          <%= f.submit "Submit", :class=>"btn btn-primary"%>
+        <% end %>
+      </div>
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
+  </div>
 </div>
